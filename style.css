@@ -9,5 +9,15 @@ html {
 }
 
 body {
+  font-family: sans-serif;
   background-color: #121212;
+}
+
+.calculator {
+  color: aliceblue;
+  border: 1px solid #fff;
+  width: 100rem;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
