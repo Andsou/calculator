@@ -24,7 +24,7 @@ body {
   border-radius: 0.5rem;
   width: 40rem;
   height: 45rem;
-  padding: 1rem;
+  padding: 1.2rem;
 
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -33,11 +33,13 @@ body {
 }
 
 .result-screen {
-  border: 1px solid white;
-
-  grid-column: 1 / -1;
+  border: 4px solid #000;
+  border-radius: 0.5rem;
   background-color: #fff;
   font-size: 5rem;
+  padding: 0 5px;
+
+  grid-column: 1 / -1;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -45,8 +47,19 @@ body {
 
 .btn {
   font-size: 1.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background-color: #c5c5c5;
+}
+
+.btn--operate {
+  background-color: orange;
+}
+
+.btn--0 {
+  grid-column: 1 / span 3;
 }
 
 .btn--clear {
-  grid-column: 1 / span 2;
+  grid-column: 1 / span 3;
 }
